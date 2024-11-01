@@ -1,0 +1,104 @@
+.wiseagent-form-field.checkbox-field label,
+.wiseagent-form-field.radio-field label:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+#sessionProfileImageWrapper {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #ccc;
+}
+
+#sessionProfileImage {
+    width: 100%;
+    height: 100%;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profileCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 250px;
+}
+
+#logoutBtn {
+    width: auto;
+    margin: 10px auto;
+}
+
+#loginBtn {
+    width: auto;
+    margin: 10px auto;
+}
+.button-disconnect {
+    color: #a00!important;
+}
+
+.wiseagent-form .form-group {
+    margin-bottom: 1rem;
+}
+
+
+.wiseagent-form .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wiseagent-form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.wiseagent-form .wiseagent-form-submit input {
+    width: 100%;
+    height: 3em;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.wa-collapsible-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    height: 4em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    width: 600px;
+}
+
+.wa-collapsible-content {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f9fafa;
+    padding: 1em;
+    width: 600px;
+}
